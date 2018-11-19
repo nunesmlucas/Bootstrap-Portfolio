@@ -1,7 +1,60 @@
+body{
+    background-image: url("../images/folk-pattern-black.png");
+}
+
+#container2{
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#container2 p{
+    padding-top: 10px;
+}
 #odeszaImage {
     height: auto;
     float: left;
     width: 40%;
+    margin-top: 2%; 
+    border-radius: 2px;
+}
+#containerTest{
+    margin-top: 3%;
+    background-color: antiquewhite;
+    height: 900px;  
+    width: auto;  
+    border-radius: 2px;  
+    margin-bottom: 20px;
+}
+#containerTest img{
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    margin: 10px;
+}
+#containerContact{
+    margin-top: 2%;
+    width: 60%;
+    background-color: white;
+    padding: 10px;  
+    border-radius: 2px;
+}
+.row{
+    display: block;
+}
+.navbar{
+    background-color: teal;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    line-height: 45px;
+    height: 6%;
+    width: 100%;
+    padding: 0px 15px;
 }
 
 
